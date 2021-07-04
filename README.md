@@ -6,7 +6,7 @@ Merhabalar,
 
 Projemiz **.Net Core 3.1** ile çalışmaktadır ve **Mongo veritabanı** kullanılmıştır.
 
-Öncelikle ana dizinde bulunan "digiturk.json" dosyası Mongo veritabanına import edilmelidir. 
+Öncelikle ana dizinde bulunan "logiwa.json" klasörü Mongo veritabanına import edilmelidir. 
 
 Bunun için:
 
