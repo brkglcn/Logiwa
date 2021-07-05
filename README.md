@@ -14,8 +14,6 @@ Bunun için:
 
 İsterseniz ana dizinde bulunan "postman_collection.json" ile endpoint'lere ve request'lere bakabilirsiniz.
 
-### Cevaplar
-
 - Projede veritabanı CRUD işlemleri için "Factory Method Pattern" kullandım. CRUD işlemleri yapılırken, kodu büyük ölçüde kısaltarak daha iyi anlaşılmasını sağlıyor. Genel olarak "Repository Pattern"e benzeyen bir yapı kullandım. "Controller", "Service" ve "Model"ler birbirinden ayrı olarak kurgulandı. "Controller" tarafı sadece Requestleri karşılarken "Service" tarafı hem CRUD işlemlerini düzenli tuttuğu gibi, klasör yapısını daha anlaşılır hale getirmektedir. "Model" tarafında ise "MongoEntities", "Requests" ve "Responses" klasörleri ile daha basitleştirilmiştir.
 
 - Mongo Database'e erişim ve işlemler için "MongoDb.Driver" kütüphanesini kullandım. Ayrıca datalarım için "Microsoft.AspNetCore.Mvc.NewtonsoftJson" kütüphanesini kullandım. Bu kütüphaneler ile veriler ile daha iyi transactionlar alabileceğimi düşündüm.
